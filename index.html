@@ -1,382 +1,931 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta name="description" content="it">
+    <meta name="keywords" content="Rapoo,creative, agency, startup,onepage, clean, modern,business, company,it">
 
-    <title>Lava Landing Page HTML Template</title>
-<!--
+    <meta name="author" content="themefisher.com">
 
-Lava Landing Page
+    <title>Rapoo- It solutions &amp; Corporate template</title>
 
-https://templatemo.com/tm-540-lava-landing-page
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+    <!-- Icon Font css -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+    <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css">
+    <!-- Themify icon Css -->
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
--->
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <link rel="stylesheet" href="assets/css/templatemo-lava.css">
-
-    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
-<body>
 
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- ***** Preloader End ***** -->
+<body id="top-header">
 
+<!-- LOADER TEMPLATE -->
+<div id="page-loader">
+    <div class="loader-icon fa fa-spin colored-border"></div>
+</div>
+<!-- /LOADER TEMPLATE -->
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            Lava
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
-                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="" class="menu-item">About Us</a></li>
-                                    <li><a href="" class="menu-item">Features</a></li>
-                                    <li><a href="" class="menu-item">FAQ's</a></li>
-                                    <li><a href="" class="menu-item">Blog</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
+<div class="logo-bar d-none d-md-block d-lg-block bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-6">
+                <div class="logo d-none d-lg-block">
+                    <img src="images/logo.png" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col col-lg-2 justify-content-end ml-lg-auto d-flex col-12 col-md-12 justify-content-md-center align-items-center">
+                <div class="top-info-block d-inline-flex">
+                    <div class="icon-block">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+
+                <div class="top-info-block d-inline-flex">
+                    <div class="icon-block">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+
+                <div class="top-info-block d-inline-flex">
+                    <div class="icon-block">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+    </div>
+</div>
+
+<!-- NAVBAR
+================================================= -->
+<div class="main-navigation" id="mainmenu-area">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius">
+
+            <a class="navbar-brand d-lg-none d-block" href="">
+                <h4>Rapoo</h4>
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Links -->
+                <ul class="navbar-nav ">
+
+                    <li class="nav-item">
+                        <a href="#top-header" class="nav-link js-scroll-trigger">
+                            <i class="fa fa-home"></i> Start
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#feature" class="nav-link js-scroll-trigger">
+                            O mnie
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="service.html" class="nav-link js-scroll-trigger">
+                            Doświadczenie
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="pricing.html" class="nav-link js-scroll-trigger">
+                            Oferta
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a href="project.html" class="nav-link js-scroll-trigger">
+                            Cennik
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ml-lg-auto list-unstyled m-0">
+                    <li><a href="#" class="btn btn-white btn-circled">Kontakt</a></li>
+                </ul>
+            </div> <!-- / .navbar-collapse -->
+        </nav>
+    </div> <!-- / .container -->
+</div>
 
 
-    <!-- ***** Welcome Area Start ***** -->
-    <div class="welcome-area" id="welcome">
+<!-- HERO
+================================================== -->
+<section class="banner-area py-7">
+    <!-- Content -->
+    <div class="container">
+        <div class="row  align-items-center">
+            <div class="col-md-12 col-lg-7 text-center text-lg-left">
+                <div class="main-banner">
+                    <!-- Heading -->
+                    <h1 class="display-4 mb-4 font-weight-normal">
+                        Industry Leading Managed Services Solutions
+                    </h1>
 
-        <!-- ***** Header Text Start ***** -->
-        <div class="header-text">
-            <div class="container">
+                    <!-- Subheading -->
+                    <p class="lead mb-4">
+                        Rapoo is set of landing and support pages aimed at helping companies promote new products and
+                        business launches.
+                    </p>
+
+                    <!-- Button -->
+                    <p class="mb-0">
+                        <a href="#" target="_blank" class="btn btn-primary btn-circled">
+                            Purchase now
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-5 d-none d-lg-block">
+                <div class="banner-img-block">
+                    <img src="images/banner-img-5.png" alt="banner-img" class="img-fluid">
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+
+
+<section class="section bg-grey" id="feature">
+    <div class="container">
+        <div class="row justy-content-center">
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="text-center feature-block">
+                    <div class="img-icon-block mb-4">
+                        <i class="ti-thumb-up"></i>
+                    </div>
+                    <h4 class="mb-2">The right advice</h4>
+                    <p>Our team are experts in matching you with the right provider.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="text-center feature-block">
+                    <div class="img-icon-block mb-4">
+                        <i class="ti-cup"></i>
+                    </div>
+                    <h4 class="mb-2">Recognised for excellence</h4>
+                    <p>We've been awarded for our high rate of customer satisfaction.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="text-center feature-block">
+                    <div class="img-icon-block mb-4">
+                        <i class="ti-wallet"></i>
+                    </div>
+                    <h4 class="mb-2">Compare the best</h4>
+                    <p>We only compare market leaders with a reputation for service quality.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="text-center feature-block">
+                    <div class="img-icon-block mb-4">
+                        <i class="ti-dashboard"></i>
+                    </div>
+                    <h4 class="mb-2">Premium Services</h4>
+                    <p>We only compare market leaders with a reputation for service quality.</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- / .container -->
+</section>
+
+
+<!-- SERVICE-1
+================================================== -->
+<section class="bg-grey" id="service">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4">
+                <div class="service-img">
+                    <img src="images/blog-lg.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-lg-6 pl-4">
+                <div class="service-content">
+                    <h1>Get a better deal and start saving money today</h1>
+                    <p>We compare hundreds of leading products and plans across many categories to bring you the best
+                        value for money.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-5 service-wrap">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-8 offset-lg-4">
+                <div class="carousel slide " id="service-carousel" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="service-block media">
+                                            <div class="service-icon">
+                                                <i class="ti-reload"></i>
+                                            </div>
+                                            <div class="service-inner-content media-body">
+                                                <h4>Backup System</h4>
+                                                <p>Our team are experts in matching you with the right provider.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="service-block media">
+                                            <div class="service-icon">
+                                                <i class="ti-cloud"></i>
+                                            </div>
+                                            <div class="service-inner-content media-body">
+                                                <h4>Cloud Hosting</h4>
+                                                <p>Our team are experts in matching you with the right provider.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="service-block media">
+                                            <div class="service-icon">
+                                                <i class="ti-world"></i>
+                                            </div>
+                                            <div class="service-inner-content media-body">
+                                                <h4>Web hosting</h4>
+                                                <p>Our team are experts in matching you with the right provider.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="service-block media">
+                                            <div class="service-icon">
+                                                <i class="ti-server"></i>
+                                            </div>
+                                            <div class="service-inner-content media-body">
+                                                <h4>Office Cloud</h4>
+                                                <p>Our team are experts in matching you with the right provider.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
-                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
-                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h1>Simple App that we <em>CREATE</em></h1>
-                        <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>.
-                           You can modify and use it for your commercial websites for free of charge. This template is last updated on 29 Oct 2019.</p> 
-                        <a href="#about" class="main-button-slider">KNOW US BETTER</a>
+                    <div class="col-lg-12">
+                        <p class="pl-3">Want to know more about this? <a href="#">Contact us</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- ***** Header Text End ***** -->
     </div>
-    <!-- ***** Welcome Area End ***** -->
+</section>
+<section class="section" id="process">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading -->
+                    <h2 class="section-title">
+                        Our Working process
+                    </h2>
 
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>01</h2>
-                            <img src="assets/images/features-icon-1.png" alt="">
-                            <h4>Trend Analysis</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
-                                Read More
-                            </a>
+                    <!-- Subheading -->
+                    <p>
+                        Rapoo can be used to create anything from a small marketing page to a sophisticated website.
+                    </p>
+
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="process-block">
+                    <img src="images/process/process-1.jpg" alt="" class="img-fluid">
+
+                    <h3>Project Research</h3>
+                    <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="process-block">
+                    <img src="images/process/process-2.jpg" alt="" class="img-fluid">
+
+                    <h3>Project demostration</h3>
+                    <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="process-block">
+                    <img src="images/process/process-3.jpg" alt="" class="img-fluid">
+
+                    <h3>Development & delivery</h3>
+                    <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" id="services-2">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading -->
+                    <h2 class="section-title mb-2 text-white">
+                        Web Services
+                    </h2>
+
+                    <!-- Subheading -->
+                    <p class="mb-5 text-white">
+                        Rapoo can be used to create anything from a small marketing page to a sophisticated website.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                <div class="web-service-block">
+                    <i class="ti-light-bulb"></i>
+                    <h3>Creative Design</h3>
+                    <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind
+                        had .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                <div class="web-service-block">
+                    <i class="ti-desktop"></i>
+                    <h3>Web Development</h3>
+                    <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind
+                        had .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                <div class="web-service-block">
+                    <i class="ti-announcement"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind
+                        had .</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-md-6 ">
+                <div class="web-service-block">
+                    <i class="ti-layers-alt"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind
+                        had .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6 ">
+                <div class="web-service-block">
+                    <i class="ti-mobile"></i>
+                    <h3>App Development</h3>
+                    <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind
+                        had .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6 ">
+                <div class="web-service-block">
+                    <i class="ti-settings"></i>
+                    <h3>Wordpress Installation</h3>
+                    <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind
+                        had .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="pricing">
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading -->
+                    <h2 class="section-title">
+                        Affordable Price Plan
+                    </h2>
+
+                    <!-- Subheading -->
+                    <p>
+                        Rapoo can be used to create anything from a small marketing page to a sophisticated website.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="pricing-box">
+                    <h3>Stnadard</h3>
+                    <div class="price-block">
+                        <h2><small>$</small>13<span>monthly</span></h2>
+                    </div>
+
+                    <ul class="price-features list-unstyled">
+                        <li>Unlimited Domain</li>
+                        <li>Unmetered Bandwidth</li>
+                        <li>Free SSL Certificate</li>
+                        <li>20 Email Subscription</li>
+                        <li>SSD Hosting</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-outline-dark btn-circled">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="pricing-box">
+                    <h3>Premium</h3>
+                    <div class="price-block">
+                        <h2><small>$</small>23<span>monthly</span></h2>
+                    </div>
+
+                    <ul class="price-features list-unstyled">
+                        <li>Unlimited Domain</li>
+                        <li>Unmetered Bandwidth</li>
+                        <li>Free SSL Certificate</li>
+                        <li>20 Email Subscription</li>
+                        <li>SSD Hosting</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary btn-circled">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-8 col-md-6">
+                <div class="pricing-box ">
+                    <h3>Business</h3>
+                    <div class="price-block">
+                        <h2><small>$</small>33<span>monthly</span></h2>
+                    </div>
+
+                    <ul class="price-features list-unstyled">
+                        <li>Unlimited Domain</li>
+                        <li>Unmetered Bandwidth</li>
+                        <li>Free SSL Certificate</li>
+                        <li>20 Email Subscription</li>
+                        <li>SSD Hosting</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-outline-dark btn-circled">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="projects-wrap">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h1 class="text-white">We are trying to deliver 100% quality product and success their business to
+                        achieve ultimate goal.</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead text-white">We are providing best service since 1990 to present , committed to best
+                    service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus,
+                    feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section-bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                <div class="single-project">
+                    <img src="images/projects/p-1.jpg" alt="" class="img-fluid">
+                    <div class="project-content">
+                        <h4>Project: onepage</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur
+                            veniam quod</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                <div class="single-project">
+                    <img src="images/projects/p-4.jpg" alt="" class="img-fluid">
+                    <div class="project-content">
+                        <h4>Project: business</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur
+                            veniam quod</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-8 ">
+                <div class="single-project">
+                    <img src="images/projects/p-3.jpg" alt="" class="img-fluid">
+                    <div class="project-content">
+                        <h4>Project : Marketing</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur
+                            veniam quod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-4">
+            <div class="col-lg-7 col-md-12 col-sm-12 ">
+                <div class="single-project">
+                    <img src="images/bg/banner_bg.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 ">
+                <div class="project-content-block">
+                    <h4>Do you know who we are?</h4>
+                    <h2>More than just service your products...</h2>
+                    <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
+                        we will give you a complete account of the system.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="section-testimonial">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-sm-12 col-md-12">
+                <div class="section-heading testimonial-heading">
+                    <h1>What they say <br>about us</h1>
+                    <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam,
+                        eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="test-inner ">
+                            <div class="test-author-thumb d-flex">
+                                <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
+                                <div class="test-author-info">
+                                    <h4>Will Barrow</h4>
+                                    <h6>Sunrise Paradise Hotel</h6>
+                                </div>
+                            </div>
+
+                            Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui
+                            fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="test-inner ">
+                            <div class="test-author-thumb d-flex">
+                                <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
+                                <div class="test-author-info">
+                                    <h4>Will Barrow</h4>
+                                    <h6>Sunrise Paradise Hotel</h6>
+                                </div>
+                            </div>
+
+                            Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui
+                            fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                            <i class="fa fa-quote-right"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>02</h2>
-                            <img src="assets/images/features-icon-2.png" alt="">
-                            <h4>Site Optimization</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
-                                Discover More
-                            </a>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="test-inner ">
+                            <div class="test-author-thumb d-flex">
+                                <img src="images/client/test-3.jpg" alt="Testimonial author" class="img-fluid">
+                                <div class="test-author-info">
+                                    <h4>Will Barrow</h4>
+                                    <h6>Sunrise Paradise Hotel</h6>
+                                </div>
+                            </div>
+
+                            Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui
+                            fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="test-inner ">
+                            <div class="test-author-thumb d-flex">
+                                <img src="images/client/test-4.jpg" alt="Testimonial author" class="img-fluid">
+                                <div class="test-author-info">
+                                    <h4>Will Barrow</h4>
+                                    <h6>Sunrise Paradise Hotel</h6>
+                                </div>
+                            </div>
+
+                            Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui
+                            fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                            <i class="fa fa-quote-right"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>03</h2>
-                            <img src="assets/images/features-icon-3.png" alt="">
-                            <h4>Email Design</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
-                                More Detail
-                            </a>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="test-inner">
+                            <div class="test-author-thumb d-flex">
+                                <img src="images/client/test-5.jpg" alt="Testimonial author" class="img-fluid">
+                                <div class="test-author-info">
+                                    <h4>Will Barrow</h4>
+                                    <h6>Sunrise Paradise Hotel</h6>
+                                </div>
+                            </div>
+
+                            Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui
+                            fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="test-inner">
+                            <div class="test-author-thumb d-flex">
+                                <img src="images/client/test-6.jpg" alt="Testimonial author" class="img-fluid">
+                                <div class="test-author-info">
+                                    <h4>Will Barrow</h4>
+                                    <h6>Sunrise Paradise Hotel</h6>
+                                </div>
+                            </div>
+
+                            Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui
+                            fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                            <i class="fa fa-quote-right"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
+    </div>
+</section>
+<section class="section" id="blog">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading -->
+                    <h2 class="section-title">
+                        Read our latest news
+                    </h2>
 
-    <div class="left-image-decor"></div>
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="promotion">
-        <div class="container">
-            <div class="row">
-                <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    <!-- Subheading -->
+                    <p>
+                        Our duty towards you is to share our experience we're reaching in our work path with you.
+                    </p>
                 </div>
-                <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
-                    <ul>
-                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                            <img src="assets/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <h4>Vestibulum pulvinar rhoncus</h4>
-                                <p>Please do not redistribute this template ZIP file for a download purpose. You may <a
-                                rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> us for
-                            additional licensing of our template or to get a PSD file.</p>
-                            </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-box">
+                    <div class="blog-img-box">
+                        <img src="images/blog/blog-1.jpg" alt="" class="img-fluid blog-img">
+                    </div>
+                    <div class="single-blog">
+                        <div class="blog-content">
+                            <h6> 17 October 2018</h6>
+                            <a href="#">
+                                <h3 class="card-title">Top tips to speed up your site in a speedy time</h3>
+                            </a>
+                            <p>There are many variations of passages Lorem Ipsum available, but majority have ama
+                                suffered altratio. the lorem.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-box">
+                    <div class="blog-img-box">
+                        <img src="images/blog/blog-2.jpg" alt="" class="img-fluid blog-img">
+                    </div>
+                    <div class="single-blog">
+                        <div class="blog-content">
+                            <h6> 17 October 2018</h6>
+                            <a href="#">
+                                <h3 class="card-title">Brand your site value with marketing strategies</h3>
+                            </a>
+
+                            <p>There are many variations of passages Lorem Ipsum available, but majority have ama
+                                suffered altratio. the lorem.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-8">
+                <div class="blog-box">
+                    <div class="blog-img-box">
+                        <img src="images/blog/blog-3.jpg" alt="" class="img-fluid blog-img">
+                    </div>
+                    <div class="single-blog">
+                        <div class="blog-content">
+                            <h6> 17 October 2018</h6>
+                            <a href="#">
+                                <h3 class="card-title">Website Optimization is very essential for site speed</h3>
+                            </a>
+                            <p>There are many variations of passages Lorem Ipsum available, but majority have ama
+                                suffered altratio. the lorem.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="section " id="footer">
+    <div class="overlay footer-overlay"></div>
+    <!--Content -->
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-lg-4 col-sm-12">
+                <div class="footer-widget">
+                    <!-- Brand -->
+                    <a href="#" class="footer-brand text-white">
+                        Rapoo
+                    </a>
+                    <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem
+                        ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 ml-lg-auto col-sm-12">
+                <div class="footer-widget">
+                    <h3>Account</h3>
+                    <!-- Links -->
+                    <ul class="footer-links ">
+                        <li>
+                            <a href="#">
+                                Terms and conditions
+                            </a>
                         </li>
-                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
-                            <img src="assets/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <h4>Sed blandit quam in velit</h4>
-                                <p>You can <a rel="nofollow"
-                                        href="https://templatemo.com/tm-540-lava-landing-page">download Lava
-                                        Template</a> from our website. Duis viverra, ipsum et scelerisque placerat, orci
-                                    magna consequat ligula.</p>
-                            </div>
+                        <li>
+                            <a href="#">
+                                Privacy policy
+                            </a>
                         </li>
-                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
-                            <img src="assets/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <h4>Aenean faucibus venenatis</h4>
-                                <p>Phasellus in imperdiet felis, eget vestibulum nulla. Aliquam nec dui nec augue
-                                    maximus porta. Curabitur tristique lacus.</p>
-                            </div>
+                        <li>
+                            <a href="#">
+                                Affiliate services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Help and support
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Frequently Asked Question
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
 
-    <div class="right-image-decor"></div>
 
-    <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="center-heading">
-                        <h2>What They Think <em>About Us</em></h2>
-                        <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                            Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Jonathan Smart</h4>
-                                <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus
-                                    urna elit in mauris.”</p>
-                                <span>Besta CTO</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Martino Tino</h4>
-                                <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est
-                                    interdum, rhoncus leo.”</p>
-                                <span>Web Analyst</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>George Tasa</h4>
-                                <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
-                                    congue a fringilla sed, maximus et urna.”</p>
-                                <span>System Admin</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Sir James</h4>
-                                <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
-                                    congue a fringilla sed, maximus et urna."</p>
-                                <span>New Villager</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="footer-widget">
+                    <h3>About</h3>
+                    <!-- Links -->
+                    <ul class="footer-links ">
+                        <li>
+                            <a href="#">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Pricing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Products Shop
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- ***** Testimonials Ends ***** -->
 
-
-    <!-- ***** Footer Start ***** -->
-    <footer id="contact-us">
-        <div class="container">
-            <div class="footer-content">
-                <div class="row">
-                    <!-- ***** Contact Form Start ***** -->
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="contact-form">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="name" type="text" id="name" placeholder="Full Name" required=""
-                                                style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="email" type="text" id="email" placeholder="E-Mail Address"
-                                                required="" style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea name="message" rows="6" id="message" placeholder="Your Message"
-                                                required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">Send Message
-                                                Now</button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- ***** Contact Form End ***** -->
-                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
-                        <h2>More About <em>Lava</em></h2>
-                        <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio.
-                            Vivamus ut pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.
-                            <br><br>If you need this contact form to send email to your inbox, you may follow our <a
-                                rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page
-                            for more detail.</p>
-                        <ul class="social">
-                            <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="footer-widget">
+                    <h3>Socials</h3>
+                    <!-- Links -->
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i>Twitter
+                            </a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest
+                        </a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
+                        </a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i>YouTube
+                        </a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="sub-footer">
-                        <p>Copyright &copy; 2020 Lava Landing Page
+        </div> <!-- / .row -->
 
-                        | Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-                    </div>
-                </div>
+
+        <div class="row text-right pt-5">
+            <div class="col-lg-12">
+                <!-- Copyright -->
+                <p class="footer-copy ">
+                    &copy; Copyright <span class="current-year">Themefisher</span> All rights reserved.
+                </p>
             </div>
-        </div>
-    </footer>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</footer>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+<!--  Page Scroll to Top  -->
 
-    <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
+<a class="scroll-to-top js-scroll-trigger" href="#top-header">
+    <i class="fa fa-angle-up"></i>
+</a>
 
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
+
+<!--
+Essential Scripts
+=====================================-->
+
+
+<!-- Main jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 3.1 -->
+<script src="plugins/bootstrap/js/popper.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- Slick Slider -->
+<script src="plugins/slick-carousel/slick/slick.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Map Js -->
+<script src="plugins/google-map/gmap3.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+
+<script src="js/form/contact.js"></script>
+<script src="js/theme.js"></script>
 
 </body>
 </html>
+   
