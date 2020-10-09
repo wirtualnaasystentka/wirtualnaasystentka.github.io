@@ -1,34 +1,7 @@
 @charset "UTF-8";
 /*=== MEDIA QUERY ===*/
-/** --------------------------------------------------
-Author       : Dreambuzz
-Template Name: Rapoo - it solution landing template
-Author URI : https://themeforest.net/user/dreambuzz/portfolio
-Description: Rapoo,it, onepage,clean,bootstrap4, 
-Description: Rapoo,it, onepage,clean,bootstrap4, responsive,modern,agency,landing template.
-Version      : 1.0
-* -------------------------------------------------  */
-/*-----------------------------
- CSS INDEXING
-* --------------------------------------
-* 01.GLOBAL CSS STYLE
-* 02.TYPOGRAPHY CSS STYLE
-* 03.BUTTONS STYLE
-* 04.HOMEPAGE CSS STYLE
-    -LOGO CSS
-    -MENU CSS
-    -BACKGROUND
-* 05.FEATURES CSS STYLE
-* 06.SERVICE CSS STYLE
-* 07.ABOUT CSS STYLE
-* 08.PRICING CSS STYLE
-* 09.TESTIMONIAL STYLE
-* 10.LATEST BLOG CSS STYLE
-* 11.CONTACT CSS STYLE
-* 12.FOOTER CSS STYLE
-* ----------------------------------------
-*/
-@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Calistoga");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -120,6 +93,40 @@ h6 {
 
 .bg-grey {
   background: #F4F7FC;
+}
+
+blockquote {
+  position: relative;
+  margin: 1.5rem;
+  padding-left: 1em;
+  border-left: 0.2em solid #d4a0a7;
+  font-family: "Calistoga", serif;
+  font-size: 1.5rem;
+  color: #212529;
+  text-align: left;
+}
+
+.block-header {
+  background: #F4F7FC;
+  position: relative;
+  font-weight: 900;
+  padding: 1rem;
+}
+
+.text-lighter-color {
+  color: #ecd5d8;
+}
+
+.text-primary-color {
+  color: #d4a0a7;
+}
+
+.text-darker-color {
+  color: #bc6b76;
+}
+
+.banner-area {
+  padding-bottom: -30px;
 }
 
 /*--------------------
@@ -223,8 +230,8 @@ img {
 }
 
 .bg-primary, .btn-primary, .btn-white:hover {
-  background: #28a091 !important;
-  border-color: #28a091 !important;
+  background: #d4a0a7 !important;
+  border-color: #d4a0a7 !important;
   color: #fff;
 }
 
@@ -276,11 +283,11 @@ img {
 }
 
 .bg-primary {
-  background: #28a091 !important;
+  background: #d4a0a7 !important;
 }
 
 a {
-  color: #28a091;
+  color: #d4a0a7;
 }
 
 a:hover, a:focus {
@@ -299,7 +306,7 @@ a:hover, a:focus {
   padding: 8px;
 }
 .header-socials li a {
-  color: #28a091;
+  color: #d4a0a7;
 }
 
 /*-----------------
@@ -318,7 +325,7 @@ a:hover, a:focus {
 
 .icon-block {
   margin-right: 20px;
-  color: #28a091;
+  color: #d4a0a7;
   font-size: 40px;
   line-height: 20px;
   font-weight: 400;
@@ -342,7 +349,7 @@ a:hover, a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #28a091;
+  background: #d4a0a7;
   -webkit-box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
@@ -555,6 +562,14 @@ PAGE BANNER
   background-color: #fff;
 }
 
+.nav-icon {
+  color: #fff;
+}
+.nav-icon:hover {
+  color: #fff;
+  opacity: 0.75;
+}
+
 .fixed-top {
   position: fixed;
   z-index: 1030;
@@ -635,7 +650,7 @@ PAGE BANNER
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #28a091;
+  background-color: #d4a0a7;
 }
 
 /*----------------------
@@ -666,7 +681,6 @@ PAGE BANNER
 -----------------------------*/
 #banner {
   position: relative;
-  background: url("/images/bg/banner_bg.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -724,11 +738,9 @@ PAGE BANNER
 .img-icon-block:before {
   position: absolute;
   content: "";
-  top: -27px;
-  background-color: #28a091;
+  background-color: #d4a0a7;
   opacity: 0.3;
   width: 80px;
-  right: 70px;
   height: 80px;
   border-radius: 50%;
   z-index: 1;
@@ -749,11 +761,11 @@ ABOUT-2
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 #about .img-block img {
-  border: 5px solid #28a091;
+  border: 5px solid #d4a0a7;
 }
 
 .pt-6 {
-  padding-top: 4.5rem;
+  padding-top: 6.5rem;
 }
 
 .img-icon i {
@@ -764,7 +776,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-  color: #28a091;
+  color: #d4a0a7;
   margin-bottom: 10px;
   font-weight: 300;
 }
@@ -794,7 +806,7 @@ h5.subtitle {
   font-size: 25px;
   width: 50px;
   height: 50px;
-  background: #28a091;
+  background: #d4a0a7;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -811,20 +823,20 @@ h5.subtitle {
 /*----------------------
  WEB SERVICES
 -----------------------*/
-#services-2 {
+.services-bg {
   position: relative;
-  background: url("../images/bg/6.jpg") no-repeat fixed 50% 50%;
+  background: url("../images/bg/10541.jpg") no-repeat fixed 50% 50%;
   -webkit-background-size: cover;
   background-size: cover;
 }
-#services-2:before {
+.services-bg:before {
   position: absolute;
   content: "";
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
+  background-image: linear-gradient(30deg, rgba(117, 73, 79, 0.8) 0%, rgba(164, 140, 141, 0.8) 100%);
 }
 
 .web-service-block {
@@ -836,6 +848,7 @@ h5.subtitle {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   margin-bottom: 10px;
+  height: 100%;
 }
 .web-service-block i {
   font-size: 70px;
@@ -850,17 +863,25 @@ h5.subtitle {
   color: #eee;
   margin-top: 15px;
 }
+.web-service-block ul {
+  color: #eee;
+  margin-top: 15px;
+  text-align: left;
+}
 .web-service-block:hover {
   background: #fff;
   border-color: transparent;
 }
 .web-service-block:hover i {
-  color: #28a091;
+  color: #d4a0a7;
 }
 .web-service-block:hover h3 {
   color: #111;
 }
 .web-service-block:hover p {
+  color: #111;
+}
+.web-service-block:hover ul {
   color: #111;
 }
 
@@ -875,7 +896,6 @@ h5.subtitle {
 -----------------------*/
 #projects-wrap {
   position: relative;
-  background: url("../images/bg/banner_bg.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -922,20 +942,21 @@ h5.subtitle {
 }
 
 .project-content-block {
-  padding: 70px 40px;
+  padding: 40px 40px;
   margin-left: -120px;
   background: #F4F7FC;
   position: absolute;
-  bottom: -70px;
+  top: 40px;
   border: 15px solid #fff;
   -webkit-box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 .project-content-block h4 {
-  color: #28a091;
+  color: #d4a0a7;
 }
 .project-content-block p {
   margin-top: 25px;
+  text-align: justify;
 }
 
 /*-------------------------
@@ -972,7 +993,7 @@ h5.subtitle {
   position: absolute;
   left: 30px;
   top: -23px;
-  background: #28a091;
+  background: #d4a0a7;
   color: #fff;
 }
 .overlay-content-block h4 {
@@ -1043,12 +1064,13 @@ h5.subtitle {
   font-weight: 700;
   position: relative;
   display: inline-block;
+  left: 10px;
 }
 .price-block h2 small {
   position: absolute;
   top: 20px;
   font-size: 16px;
-  left: -9px;
+  left: -30px;
 }
 .price-block h6 {
   font-size: 14px;
@@ -1061,7 +1083,7 @@ h5.subtitle {
 }
 
 .price-features {
-  margin: 30px 0px 50px;
+  margin: 30px 0px 20px;
 }
 .price-features li {
   font-size: 16px;
@@ -1075,7 +1097,7 @@ h5.subtitle {
   font-family: "Font Awesome 5 Free";
   left: 0px;
   top: 5px;
-  color: #28a091;
+  color: #d4a0a7;
   font-weight: 900;
 }
 
@@ -1095,6 +1117,7 @@ PRICING-2
   -webkit-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  height: 100%;
 }
 .pricing-box .price-block h2 span {
   font-size: 12px;
@@ -1122,43 +1145,46 @@ PRICING-2
 /*----------------------
  BLOG SECTION
 -----------------------*/
-.blog-box {
+.partnership-box {
   position: relative;
+  border: 1px solid #eee;
+  padding: 1rem 2rem;
+  height: 100%;
 }
-.blog-box .blog-img-box img {
+.partnership-box .blog-img-box img {
   border-radius: 5px;
   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.08);
 }
 
-.single-blog {
+.single-partnership {
   padding-top: 25px;
   position: relative;
 }
 
-.bg-light .single-blog {
+.bg-light .single-partnership {
   padding: 40px;
   text-align: center;
   border-bottom: 1px solid #eee;
 }
 
-.blog-content ul {
+.partnership-content ul {
   margin-bottom: 10px;
 }
-.blog-content a h3 {
+.partnership-content a h3 {
   transition: all 0.3s ease 0s;
   margin: 15px 0px;
 }
-.blog-content p {
+.partnership-content p {
   margin: 20px 0px;
 }
-.blog-content:hover a h3 {
-  color: #28a091;
+.partnership-content:hover a h3 {
+  color: #d4a0a7;
 }
-.blog-content h6 span {
+.partnership-content h6 span {
   display: inline-block;
   padding-left: 10px;
 }
-.blog-content h6 span:after {
+.partnership-content h6 span:after {
   display: none;
 }
 
@@ -1235,21 +1261,20 @@ CONTACT PAGE
 
 .contact-info-block {
   border: 1px solid #eee;
-  padding: 40px 20px;
+  padding: 40px 20px 40px 20px;
   border-radius: 5px;
 }
 .contact-info-block h4 {
   margin-bottom: 0px;
 }
 .contact-info-block i {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 20px;
-  display: block;
-  color: #28a091;
+  color: #d4a0a7;
 }
 
 .form-control:focus, .form-control:hover {
-  border-color: #28a091;
+  border-color: #d4a0a7;
   box-shadow: none;
 }
 
@@ -1265,7 +1290,7 @@ CONTACT PAGE
  FOOTER
 -----------------------*/
 #footer {
-  padding: 80px 0px;
+  padding: 60px 0 30px 0;
   position: relative;
 }
 #footer .footer-brand {
@@ -1303,7 +1328,6 @@ CONTACT PAGE
   color: #888;
   line-height: 38px;
   font-size: 14px;
-  text-transform: capitalize;
 }
 .footer-links i {
   width: 25px;
@@ -1325,7 +1349,7 @@ CONTACT PAGE
 }
 
 .current-year {
-  color: #28a091 !important;
+  color: #d4a0a7 !important;
 }
 
 /*-----------------------------
@@ -1337,7 +1361,7 @@ CONTACT PAGE
   right: 30px;
   bottom: 50px;
   z-index: 999;
-  background: #28a091;
+  background: #d4a0a7;
   color: #fff !important;
   border-radius: 100%;
   opacity: 0;
@@ -1456,6 +1480,7 @@ CONTACT PAGE
 
   .service-content {
     padding-bottom: 70px;
+    padding-left: 0;
   }
 
   .process-block, .pricing-block {
@@ -1479,7 +1504,7 @@ CONTACT PAGE
     font-size: 14px;
   }
 
-  .blog-box {
+  .partnership-box {
     margin-bottom: 50px;
   }
 
@@ -1529,6 +1554,10 @@ CONTACT PAGE
   #work-wrap p.lead {
     margin-bottom: 40px;
   }
+
+  .logo-bar {
+    padding: 20px 0 0 0;
+  }
 }
 /*----------------------------------
     WIDE MOBILE LAYOUT: 7680px
@@ -1570,6 +1599,7 @@ CONTACT PAGE
 
   .service-content {
     padding-bottom: 70px;
+    padding-left: 0;
   }
 
   .process-block, .pricing-block {
@@ -1604,7 +1634,7 @@ CONTACT PAGE
     margin-bottom: 50px;
   }
 
-  .blog-box {
+  .partnership-box {
     margin-bottom: 50px;
   }
 
@@ -1645,7 +1675,7 @@ CONTACT PAGE
 
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #28a091;
+    background: #d4a0a7;
   }
 
   #map {
@@ -1684,7 +1714,7 @@ CONTACT PAGE
 
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #28a091;
+    background: #d4a0a7;
   }
 
   .top-info-block {
@@ -1720,6 +1750,7 @@ CONTACT PAGE
 
   .service-content {
     padding-bottom: 70px;
+    padding-left: 0;
   }
 
   .process-block, .pricing-block {
@@ -1753,7 +1784,7 @@ CONTACT PAGE
     margin-bottom: 50px;
   }
 
-  .blog-box {
+  .partnership-box {
     margin-bottom: 50px;
   }
 
@@ -1848,6 +1879,10 @@ CONTACT PAGE
   .navbar-toggler:focus {
     outline: none;
   }
+
+  .logo-bar {
+    padding: 20px 0 0 0;
+  }
 }
 /* Custom, iPhone Retina */
 @media (max-width: 480px) {
@@ -1901,6 +1936,7 @@ CONTACT PAGE
 
   .service-content {
     padding-bottom: 70px;
+    padding-left: 0;
   }
 
   .process-block, .pricing-block {
@@ -1935,7 +1971,7 @@ CONTACT PAGE
     margin-bottom: 50px;
   }
 
-  .blog-box {
+  .partnership-box {
     margin-bottom: 50px;
   }
 
@@ -1972,7 +2008,7 @@ CONTACT PAGE
 
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #28a091;
+    background: #d4a0a7;
   }
 
   .web-service-block {
@@ -2035,6 +2071,10 @@ CONTACT PAGE
 
   .navbar-toggler:focus {
     outline: none;
+  }
+
+  .logo-bar {
+    padding: 20px 0 0 0;
   }
 }
 

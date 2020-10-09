@@ -8,11 +8,9 @@
     &:before {
         position: absolute;
         content: "";
-        top: -27px;
         background-color: $primary-color;
         opacity: .3;
         width: 80px;
-        right: 70px;
         height: 80px;
         border-radius: 50%;
         z-index: 1;
@@ -43,7 +41,7 @@ ABOUT-2
     }
 }
 .pt-6{
-    padding-top: 4.5rem;
+    padding-top: 6.5rem;
 }
 .img-icon i{
     font-size: 60px;

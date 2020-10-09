@@ -3,7 +3,7 @@
  FOOTER
 -----------------------*/
 #footer {
-    padding: 80px 0px;
+    padding: 60px 0 30px 0;
     position: relative;
 
     .footer-brand {
@@ -51,7 +51,6 @@
         color: $black-lighter;
         line-height: 38px;
         font-size: 14px;
-        text-transform: capitalize;
     }
     i{
         width: 25px;

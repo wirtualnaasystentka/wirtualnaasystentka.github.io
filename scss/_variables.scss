@@ -1,9 +1,15 @@
 $light: #fff;
-$primary-color: #28a091;
+$primary-color: #d4a0a7;
+$lighter-color: lighten($primary-color, 15%);
+$darker-color: darken($primary-color, 15%);
 $secondary-color: #F4F7FC;
+$third-color: #eee2e7;
+$gradient-color-1: rgba(#75494f, 0.8);
+$gradient-color-2: rgba(#a48c8d, 0.8);
 $black: #212529;
 $black-light: #6c757d;
 $black-lighter: #888;
 $border-color:#eee;
 $primary-font: 'Muli', sans-serif;
 $secondary-font:'Muli', sans-serif;
+$fancy-font: 'Calistoga', serif;

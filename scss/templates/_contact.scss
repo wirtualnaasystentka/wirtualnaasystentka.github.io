@@ -8,16 +8,15 @@ CONTACT PAGE
 }
 .contact-info-block{
     border: 1px solid $border-color;
-    padding: 40px 20px;
+    padding: 40px 20px 40px 20px;
     border-radius: 5px;
 
      h4{
         margin-bottom: 0px;
     }
     i{
-        font-size: 40px;
+        font-size: 60px;
         margin-bottom: 20px;
-        display: block;
         color: $primary-color;
     }
 }

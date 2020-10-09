@@ -53,6 +53,15 @@
     }
 }
 
+.nav-icon {
+    color:$light;
+
+    &:hover {
+        color: $light;
+        opacity: .75;
+    }
+}
+
 .fixed-top {
     position: fixed;
     z-index: 1030;

@@ -1,38 +1,6 @@
-/** --------------------------------------------------
-Author       : Dreambuzz
-Template Name: Rapoo - it solution landing template
-Author URI : https://themeforest.net/user/dreambuzz/portfolio
-Description: Rapoo,it, onepage,clean,bootstrap4, 
-Description: Rapoo,it, onepage,clean,bootstrap4, responsive,modern,agency,landing template.
-Version      : 1.0
-* -------------------------------------------------  */
-
-/*-----------------------------
- CSS INDEXING
-* --------------------------------------
-* 01.GLOBAL CSS STYLE
-* 02.TYPOGRAPHY CSS STYLE
-* 03.BUTTONS STYLE
-* 04.HOMEPAGE CSS STYLE
-    -LOGO CSS
-    -MENU CSS
-    -BACKGROUND
-* 05.FEATURES CSS STYLE
-* 06.SERVICE CSS STYLE
-* 07.ABOUT CSS STYLE
-* 08.PRICING CSS STYLE
-* 09.TESTIMONIAL STYLE
-* 10.LATEST BLOG CSS STYLE
-* 11.CONTACT CSS STYLE
-* 12.FOOTER CSS STYLE
-* ----------------------------------------
-*/
-
-
-// Fonts 
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900');
-
-
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Calistoga');
 
 html {
     font-family: sans-serif;
@@ -127,4 +95,34 @@ h6 {
 
 .bg-grey {
     background: $secondary-color;
+}
+
+blockquote {
+    position: relative;
+    margin: 1.5rem;
+    padding-left: 1em;
+    border-left: 0.2em solid $primary-color;
+    font-family: $fancy-font;
+    font-size: 1.5rem;
+    color: $black;
+    text-align: left;
+}
+
+.block-header {
+    background: $secondary-color;
+    position: relative;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.text-lighter-color {
+    color: $lighter-color;
+}
+
+.text-primary-color {
+    color: $primary-color;
+}
+
+.text-darker-color {
+    color: $darker-color;
 }
