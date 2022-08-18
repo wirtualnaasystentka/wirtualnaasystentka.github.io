@@ -1,0 +1,41 @@
+.grant {
+    background: $secondary-color;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    min-height: 25vh;
+}
+
+
+.grant > .grant-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grant h4 {
+    text-align: center;
+}
+
+.grant .grant-logo {
+    height: 10vw;
+}
+
+.grant p {
+    text-align: justify;
+}
+
+@media (min-width:576px) {
+
+    .grant .grant-logo {
+        height: 48px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .grant .grant-logo {
+        height: 72px;
+    }
+}

@@ -1387,43 +1387,13 @@ CONTACT PAGE
   opacity: 1;
 }
 
-.grant {
-  background: #F4F7FC;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  min-height: 25vh;
-}
-
 .grant > .grant-logos {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.grant h4 {
-  text-align: center;
-}
-
-.grant .grant-logo {
-  height: 10vw;
-}
-
-.grant p {
-  text-align: justify;
-}
-
-@media (min-width: 576px) {
-  .grant .grant-logo {
-    height: 48px;
-  }
-}
-@media (min-width: 768px) {
-  .grant .grant-logo {
-    height: 72px;
-  }
-}
 /*----------------------------------
     MEDIUM LAYOUT: 1280px
 -----------------------------------*/
